@@ -20,8 +20,5 @@ services:
     networks:
       - mynetwork
 
-volumes:
-  postgres:
-
 networks:
   mynetwork:
