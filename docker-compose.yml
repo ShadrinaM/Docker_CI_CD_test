@@ -6,8 +6,8 @@ services:
       - POSTGRES_USER=kubsu
       - POSTGRES_PASSWORD=kubsu
       - POSTGRES_DATABASE=kubsu
-        #      volumes:
-        # - ./postgres:/docker-entrypoint-initdb.d
+      #      volumes:
+      # - ./postgres:/docker-entrypoint-initdb.d
     networks:
       - mynetwork
   pythonapp:
